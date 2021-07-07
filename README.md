@@ -2,7 +2,7 @@
 ## Módulo 14
 ### Daniel González, Javier Cózar, Jesús Martínez, Juan Ignacio Alonso
 
-## Capstone XIV
+## Capstone XIV - PEDRO GÓMEZ LÓPEZ - CIDAEN
 ---
 
 En este capstone pondremos a prueba todo lo aprendido con respecto a la creación de aplicaciones visuales (_Dash_) y cómo crear un proceso automatizado para su puesta en producción y despliegue de nuevos cambios (_CI/CD con Code Pipeline_).
@@ -27,7 +27,7 @@ Se deberá realizar el capstone en el classroom del módulo 14. Asimismo se debe
 
 ## Pasos a seguir
 
-1. Crear un repositorio **público** en GitHub. **<<INDICAR AQUÍ LA URL A DICHO REPOSITORIO>>**
+1. Crear un repositorio **público** en GitHub. **[EC2 PUBLIC LINK](ec2-34-254-229-86.eu-west-1.compute.amazonaws.com)**
     - El repositorio deberá inicializarse con el código proporcionado dentro de la carpeta `05-codepipeline-dash` (los siguientes comandos de git pueden ser necesarios `git init`, `git add`, `git commit`, `git push`)
 2. Crear un rol de IAM para el servicio CodeBuild. Asignarle la policy `AmazonS3ReadOnlyAccess`
 3. Crear un rol de IAM para el servivio CodeDeploy (CodeDeploy).
@@ -82,3 +82,5 @@ Se deberá realizar el capstone en el classroom del módulo 14. Asimismo se debe
 12. Verificar que podemos acceder a la aplicación de _Dash_ desplegada en la instancia de EC2 usando su `DNS`
 13. Efectuar un cambio en la aplicación. Para ello, modificaremos el código del repositorio cambiando el título de la aplicación (primer elemento `H1`) de tal manera que sea `'<TU NOMBRE> - Dashboard Social Networks'`. Desplegar el cambio (`git add`, `git commit` y `git push`) y verificar que la aplicación se actualiza finalizado el pipeline activado tras el `git push`.
 14. **Opcional**: ¿Se te ocurre algún KPI que mostrar sobre la nueva red social twitch? Modifica la aplicación de Dash y despliega el cambio de forma similar a como se hizo en el paso 13. **Comenta y justifica a continuación** el cambio realizado.
+
+También he incluido la red social Twitch, reflejando las mismas métricas que contienen el resto de redes sociales. Sería interesante analizar los datos relacionando eventos con volumen de visitantes. Ejemplos de eventos: Ibai anuncia la velada de boxeo en Twitter, Ibai notifica sobre los participantes, Velada, comentarios sobre la velada... Como se puede abarcar desde un punto de vista temporal, sería interesante ver las distintas relaciones entre eventos y volumen de visitantes.
