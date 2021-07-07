@@ -2,7 +2,7 @@
 ## Módulo 14
 ### Daniel González, Javier Cózar, Jesús Martínez, Juan Ignacio Alonso
 
-## Capstone XIV - PEDRO GÓMEZ LÓPEZ - CIDAEN
+## Capstone XIV - PALOMA CUENCA GIL- CIDAEN
 ---
 
 En este capstone pondremos a prueba todo lo aprendido con respecto a la creación de aplicaciones visuales (_Dash_) y cómo crear un proceso automatizado para su puesta en producción y despliegue de nuevos cambios (_CI/CD con Code Pipeline_).
